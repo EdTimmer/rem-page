@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+.header-text {
+  font-size: 5rem;
+  margin: 0 2rem;
+}
+
+.logo-container {
+  margin: 0 5rem;
+}
+
+.logo {
+  height: 8rem;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem auto 1rem auto;  
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto 1rem auto;
+  align-items: center;
+}
+
+.img-one {
+  max-height: 45rem;
+}
+
+.img-two {
+  max-height: 45rem;
+}
+
+
+.nav-link {
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.button4 {
+  display: inline-block;
+  background-color: #14cfe0;
+  padding: 0.1rem 1.2rem;
+  margin: 1rem 0.1rem 0.1rem 0;
+  border: 0.16rem solid #14cfe0;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-shadow: 0 0.04rem 0.04rem rgba(0,0,0,0.35);
+  text-align: center;
+  transition: all 0.2s;
+  width: 15rem;
+  height: 4rem;
+}
+.button4:hover {
+  border-color: rgb(202, 19, 19);
+}
+/* @media all and (max-width:30rem) {
+  .button4 {
+    display: block;
+    margin: 0.2rem auto;
+  }
+} */
