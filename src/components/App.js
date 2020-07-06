@@ -30,7 +30,7 @@ const App = () => {
         <div className="header-text">
           Lo<b>rem</b> Ipsum
         </div>
-        <button className="button4">Login</button>
+        <button className="button4">Join</button>
       </div>
 
       <div className="row-container">
@@ -50,7 +50,7 @@ const App = () => {
           <div className="img-container">
             <img className="img-two" src={fox} alt="img-two" />
           </div>
-          <div className="text-box">{lorem.generateParagraphs(1)}</div>
+          <div className="text-box">{lorem.generateSentences(4)}</div>
         </div>
       </div>
     </div>
